@@ -1,4 +1,6 @@
-const test = function(time) {
+const test = function(seconds) {
+  const minutes = seconds / 60;
+  const day = ;
   const month = time / 30;
 
 };
