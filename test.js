@@ -2,7 +2,8 @@ const test = function(seconds) {
   const minutes = seconds / 60;
   const hours = minutes / 60;
   const days = hours / 24;
-  const month = days / 30;
+  const months = days / 30;
+  const years = 0;
 
 };
 
