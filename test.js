@@ -20,6 +20,8 @@ const test = function(seconds, unit) {
       return years;
     case "decades":
       return decades;
+    case "centuries":
+      return centuries;
     default:
       return seconds;
   }
