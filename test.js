@@ -4,6 +4,7 @@ const test = function(seconds) {
   const days = hours / 24;
   const months = days / 30;
   const years = months / 12;
+  const decades = years / 10;
 
 };
 
