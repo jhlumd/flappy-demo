@@ -5,6 +5,7 @@ const test = function(seconds) {
   const months = days / 30;
   const years = months / 12;
   const decades = years / 10;
+  const centuries = years / 100;
 
 };
 
