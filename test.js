@@ -16,6 +16,8 @@ const test = function(seconds, unit) {
       return days;
     case "months":
       return months;
+    case "years":
+      return years;
     default:
       return seconds;
   }
