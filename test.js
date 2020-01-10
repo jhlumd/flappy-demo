@@ -9,7 +9,7 @@ const test = function(seconds, unit) {
 
   switch(unit) {
     case "minutes":
-      break;
+      return minutes;
     default:
       return seconds;
   }
