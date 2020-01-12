@@ -18,6 +18,8 @@ const test = function(seconds, unit) {
       return months;
     case "years":
       return years;
+    case "decades":
+      return decades;
     default:
       return seconds;
   }
