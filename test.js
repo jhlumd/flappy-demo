@@ -10,6 +10,8 @@ const test = function(seconds, unit) {
   switch(unit) {
     case "minutes":
       return minutes;
+    case "hours":
+      return hours;
     default:
       return seconds;
   }
