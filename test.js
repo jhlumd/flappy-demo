@@ -12,6 +12,8 @@ const test = function(seconds, unit) {
       return minutes;
     case "hours":
       return hours;
+    case "days":
+      return days;
     default:
       return seconds;
   }
