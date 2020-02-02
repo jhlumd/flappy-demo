@@ -14,6 +14,8 @@ const test = function(seconds, unit) {
       return hours;
     case "days":
       return days;
+    case "months":
+      return months;
     default:
       return seconds;
   }
